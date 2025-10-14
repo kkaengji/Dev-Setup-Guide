@@ -38,8 +38,9 @@ npx create-next-app@latest
 |--------|------|
 | `npm init -y` | Node.js 프로젝트 초기화 |
 | `npm install` | 의존성 설치 (node_modules 생성) |
-| `npm run dev` | 개발 서버 실행 (Vite) |
-| `npm run start` | 개발 서버 실행 (CRA / Next.js) |
+| `npm run build` | 배포용 빌드 파일 생성 |
+| `npm run start` | 프로덕션 모드 실행 (CRA / Next.js) |
+| `npm run dev` | 개발 모드 실행 (Vite) |
 | `touch .gitignore` | 버전 제외 파일 목록 생성 |
 
 ---
