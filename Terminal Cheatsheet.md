@@ -169,6 +169,5 @@ vercel
 
 ---
 
-📘 **작성자:** _Your Name_  
+📘 **작성자:** kkaengji
 📅 **최종 업데이트:** 2025-10-14  
-🔗 **배포용 Markdown 파일 이름:** `react-typescript-prisma-vercel-cheatsheet.md`
