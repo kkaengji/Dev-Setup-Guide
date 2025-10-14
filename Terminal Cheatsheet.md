@@ -42,6 +42,7 @@ npx create-next-app@latest
 | `npm run start` | 프로덕션 모드 실행 (CRA / Next.js) |
 | `npm run dev` | 개발 모드 실행 (Vite) |
 | `touch .gitignore` | 버전 제외 파일 목록 생성 |
+| `ctrl + c` | 실행 중인 서버 종료 (터미널 강제 종료) |
 
 ---
 
@@ -82,7 +83,6 @@ npx create-next-app@latest
 | `npx create-react-app .` | 현재 폴더에 React 프로젝트 생성 |
 | `npm i @types/node @types/react @types/react-dom @types/jest` | 타입 정의 패키지 설치 |
 | `npx create-react-app my-app --template typescript` | TypeScript 템플릿으로 생성 |
-| `npm run start` | 개발 서버 실행 |
 
 ---
 
@@ -96,17 +96,7 @@ npx create-next-app@latest
 
 ---
 
-## 🚀 8. 빌드 및 실행 / 종료
-
-| 명령어 | 설명 |
-|--------|------|
-| `npm run build` | 배포용 빌드 파일 생성 |
-| `npm run start` | 빌드된 프로젝트 실행 |
-| `ctrl + c` | 실행 중인 서버 종료 (터미널 강제 종료) |
-
----
-
-## 🌐 9. Vercel 배포 과정
+## 🌐 8. Vercel 배포 과정
 
 | 명령어 | 설명 |
 |--------|------|
