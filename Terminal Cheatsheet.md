@@ -1,4 +1,4 @@
-# ⚡ React + TypeScript + Prisma + Vercel 종합 터미널 명령어 치트시트
+# 🚀 Zero to Deploy: 개발 환경 & 터미널 명령어 치트시트
 
 ---
 
