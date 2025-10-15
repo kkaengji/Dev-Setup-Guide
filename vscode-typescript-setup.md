@@ -13,6 +13,7 @@
 | **Live Server** | HTML, CSS, JS 실시간 미리보기 서버 실행 | 프론트엔드 로컬 서버 |
 | **Material Icon Theme** | 파일 아이콘을 구분하기 쉽게 변경 | 디자인 향상 |
 | **Error Lens** | 에러 및 경고를 코드 라인에 인라인 표시 | 디버깅 효율 ↑ |
+| **Tailwind CSS IntelliSense** | Tailwind 클래스 자동완성 및 스타일 미리보기  | 생산성 ↑ · 필수 확장 |
 
 ---
 
