@@ -155,14 +155,6 @@ npm run build
 npm run start
 ctrl + c
 ```
-
-### 🌐 Vercel 배포
-```bash
-npm run build
-vercel login
-vercel
-```
-
 ---
 
 📘 **작성자:** kkaengji
