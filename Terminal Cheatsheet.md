@@ -101,9 +101,10 @@ npx create-next-app@latest
 | 명령어 | 설명 |
 |--------|------|
 | `npm run build` | 배포용 빌드 파일 생성 (`dist` 또는 `build` 폴더) |
-| `npm install -g vercel` | Vercel CLI 전역 설치 |
-| `vercel login` | 이메일 인증 로그인 |
-| `vercel` | 프로젝트 배포 실행 |
+| `npm install -g vercel` | Vercel CLI 전역 설치 (최초1회) |
+| `vercel login` | 이메일 인증 로그인 (최초1회) |
+| `vercel` | 새 프로젝트 배포 실행 |
+| `vercel --prod` | 기존 프로젝트 업데이트 (새 버전) |
 | ✅ 결과 | 자동 URL 생성 → `https://프로젝트명.vercel.app` |
 
 ---
