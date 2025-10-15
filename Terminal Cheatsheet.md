@@ -131,6 +131,10 @@ git add .
 git commit -m "init"
 git remote add origin [URL]
 git push -u origin main
+
+git add .
+git commit -m "메시지 작성"
+git push
 ```
 
 ### 🧩 TypeScript 실행
