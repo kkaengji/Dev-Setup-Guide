@@ -25,9 +25,10 @@ npm create vite@latest .
 npx create-react-app my-app
 ```
 
-### 🔹 Next.js
-```bash
-npx create-next-app@latest
+### 🔹 Next.js (버전별)
+```bash 
+npx create-next-app@14 [프로젝트명]    → Next.js 14 버전 기반 프로젝트 생성
+npx create-next-app@latest [프로젝트명] → 최신 버전 Next.js 프로젝트 생성
 ```
 
 ---
