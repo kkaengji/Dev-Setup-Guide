@@ -30,6 +30,7 @@ npx create-react-app my-app
 npx create-next-app@14 [프로젝트명]    → Next.js 14 버전 기반 프로젝트 생성
 npx create-next-app@latest [프로젝트명] → 최신 버전 Next.js 프로젝트 생성
 ```
+<img width="566" height="141" alt="캡처" src="https://github.com/user-attachments/assets/9064622a-4883-45a0-b870-980a87cca050" />
 
 #### eslintrc.config.json
 ```bash
@@ -45,9 +46,6 @@ const eslintConfig = [
 ];
 
 ```
-
-<img width="566" height="141" alt="캡처" src="https://github.com/user-attachments/assets/9064622a-4883-45a0-b870-980a87cca050" />
-
 ---
 
 ## ⚙️ 3. 프로젝트 초기 설정 및 실행
