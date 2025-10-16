@@ -69,9 +69,8 @@ const eslintConfig = [
 | `git add .` | 모든 변경 파일 추가 |
 | `git commit -m "메시지"` | 변경 내용 커밋 |
 | `git remote add origin [주소]` | 원격 저장소 연결 |
-| or |
-| `git clone 주소` | 로컬로 저장소 클론 |
 | `git push -u origin main` | 첫 업로드 |
+| `git clone 주소` | 로컬로 저장소 클론 |
 | `git push` | 이후 업로드 |
 
 ---
@@ -127,14 +126,22 @@ npm run dev
 
 ### 🧭 Git 업로드
 ```bash
+// Github에 새 저장소를 만들어 연결할 때
 git init
 git add .
-git commit -m "init"
+git commit -m ""
 git remote add origin [URL]
 git push -u origin main
 
+// 기존 저장소 clone
+git clone [URL]
 git add .
-git commit -m "메시지 작성"
+git commit -m ""
+git push
+
+// 이미 작업 중
+git add .
+git commit -m ""
 git push
 ```
 ---
