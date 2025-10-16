@@ -31,6 +31,21 @@ npx create-next-app@14 [프로젝트명]    → Next.js 14 버전 기반 프로�
 npx create-next-app@latest [프로젝트명] → 최신 버전 Next.js 프로젝트 생성
 ```
 
+#### eslintrc.config.json
+```bash
+const eslintConfig = [
+  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    // 이 부분 추가
+    rules: { 
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/no-explicit-any": "off",
+    },
+  },
+];
+
+```
+
 <img width="566" height="141" alt="캡처" src="https://github.com/user-attachments/assets/9064622a-4883-45a0-b870-980a87cca050" />
 
 ---
