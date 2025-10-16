@@ -69,6 +69,8 @@ const eslintConfig = [
 | `git add .` | 모든 변경 파일 추가 |
 | `git commit -m "메시지"` | 변경 내용 커밋 |
 | `git remote add origin [주소]` | 원격 저장소 연결 |
+| or |
+| `git clone 주소` | 로컬로 저장소 클론 |
 | `git push -u origin main` | 첫 업로드 |
 | `git push` | 이후 업로드 |
 
