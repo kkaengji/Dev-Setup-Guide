@@ -123,13 +123,6 @@ npm install
 npm run dev
 ```
 
-### ⚛️ React + TypeScript
-```bash
-npx create-react-app my-app --template typescript
-cd my-app
-npm run start
-```
-
 ### 🧭 Git 업로드
 ```bash
 git init
@@ -141,24 +134,6 @@ git push -u origin main
 git add .
 git commit -m "메시지 작성"
 git push
-```
-
-### 🧩 TypeScript 실행
-```bash
-npm init
-npm i @types/node
-tsc --init
-tsc
-node dist/index.js
-```
-
-### 🧮 Prisma + Seed + 빌드 + 실행
-```bash
-npx prisma db push
-npm run seed
-npm run build
-npm run start
-ctrl + c
 ```
 ---
 
