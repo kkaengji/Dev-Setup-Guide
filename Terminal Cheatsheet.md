@@ -91,17 +91,7 @@ const eslintConfig = [
 
 ---
 
-## ⚛️ 6. React + TypeScript 통합
-
-| 명령어 | 설명 |
-|--------|------|
-| `npx create-react-app .` | 현재 폴더에 React 프로젝트 생성 |
-| `npm i @types/node @types/react @types/react-dom @types/jest` | 타입 정의 패키지 설치 |
-| `npx create-react-app my-app --template typescript` | TypeScript 템플릿으로 생성 |
-
----
-
-## 🧮 7. Prisma + 데이터베이스 명령어
+## 🧮 6. Prisma + 데이터베이스 명령어
 
 | 명령어 | 설명 |
 |--------|------|
@@ -111,7 +101,7 @@ const eslintConfig = [
 
 ---
 
-## 🌐 8. Vercel 배포 과정
+## 🌐 7. Vercel 배포 과정
 
 | 명령어 | 설명 |
 |--------|------|
