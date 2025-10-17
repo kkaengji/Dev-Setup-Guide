@@ -103,13 +103,13 @@ const eslintConfig = [
 
 ---
 
-## 7. Tailwind CSS
+## 🌈 7. Tailwind CSS 설치 및 적용
+https://tailwindcss.com/docs/installation/using-vite
 
 | 명령어 | 설명 |
 |--------|------|
-| `npm install tailwindcss @tailwindcss/vite` | 배포용 빌드 파일 생성 (`dist` 또는 `build` 폴더) |
-
-https://tailwindcss.com/docs/installation/using-vite
+| `npm install tailwindcss @tailwindcss/vite` | Tailwind CSS와 Vite 전용 플러그인 설치 |
+| `npx tailwindcss init -p` | Tailwind 초기화 파일 생성 |
 
 ---
 
