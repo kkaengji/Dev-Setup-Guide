@@ -72,6 +72,7 @@ const eslintConfig = [
 | `git push -u origin main` | 첫 업로드 |
 | `git clone 주소` | 로컬로 저장소 클론 |
 | `git push` | 이후 업로드 |
+| `git mv 원래파일명.md 바꿀파일명.md` | 파일명 변경 |
 
 ---
 
@@ -143,6 +144,12 @@ git push
 git add .
 git commit -m ""
 git push
+
+// 최신 변경 내용 병합
+git add .
+git status
+git pull origin main
+
 ```
 ---
 
