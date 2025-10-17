@@ -17,7 +17,7 @@
 
 ### 🔹 Vite (최신 권장)
 ```bash
-npm create vite@latest .
+npm create vite@latest
 ```
 
 ### 🔹 Create React App (CRA)
