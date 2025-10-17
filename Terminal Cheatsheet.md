@@ -103,6 +103,16 @@ const eslintConfig = [
 
 ---
 
+## 7. Tailwind CSS
+
+| 명령어 | 설명 |
+|--------|------|
+| `npm install tailwindcss @tailwindcss/vite` | 배포용 빌드 파일 생성 (`dist` 또는 `build` 폴더) |
+
+https://tailwindcss.com/docs/installation/using-vite
+
+---
+
 ## 🌐 7. Vercel 배포 과정
 
 | 명령어 | 설명 |
@@ -110,9 +120,6 @@ const eslintConfig = [
 | `npm run build` | 배포용 빌드 파일 생성 (`dist` 또는 `build` 폴더) |
 | `npm install -g vercel` | Vercel CLI 전역 설치 (최초1회) |
 | `vercel login` | 이메일 인증 로그인 (최초1회) |
-| `vercel` | 새 프로젝트 배포 실행 |
-| `vercel --prod` | 기존 프로젝트 업데이트 (새 버전) |
-| ✅ 결과 | 자동 URL 생성 → `https://프로젝트명.vercel.app` |
 
 ---
 
@@ -122,6 +129,9 @@ const eslintConfig = [
 ```bash
 npm create vite@latest .
 npm install
+
+npm install tailwindcss @tailwindcss/vite
+
 npm run dev
 ```
 
