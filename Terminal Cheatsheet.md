@@ -64,38 +64,33 @@ const eslintConfig = [
 ```
 ---
 
-## ⚙️ 3. 프로젝트 초기 설정 및 실행
-
+## ⚙️ 3. 프로젝트 초기 설정 및 실행 가이드
+### 3-1. 핵심 명령어 정리 (스크립트 및 유틸리티)
 | 명령어 | 설명 |
 |--------|------|
-| `npm init -y` | Node.js 프로젝트 초기화 |
-| `npm install` | 의존성 설치 (node_modules 생성) |
-| `npm run build` | 배포용 빌드 파일 생성 |
+| `npm init -y` | Node.js 프로젝트 초기 설정 (기본 package.json 파일 생성) |
+| `npm install` | 의존성 설치 (package.json 기반으로 node_modules 폴더 생성) |
+| `npm run build` | 배포용 빌드 (최적화된 정적 파일 생성) |
 | `npm run start` | 프로덕션 모드 실행 (CRA / Next.js) |
 | `npm run dev` | 개발 모드 실행 (Vite) |
-| `touch .gitignore` | 버전 제외 파일 목록 생성 |
-| `ctrl + c` | 실행 중인 서버 종료 (터미널 강제 종료) |
+| `touch .gitignore` | 버전 관리 제외 파일 목록 파일 (.gitignore) 생성 |
+| `ctrl + c` | 실행 중인 서버/프로세스 종료 (터미널 강제 종료) |
 
-### ⚙️ 3-1. 필수 라이브러리 & 유틸리티 설치
-📦 기본 개발 도구
+### 3-2. 필수 라이브러리 & 유틸리티 설치
+1. 🛠️ 기본 개발 환경 및 유틸리티
 ```bash
-npm i @types/node        # Node.js 타입 정의 추가
-npm i -g typescript      # TypeScript 전역 설치
-npm i -g nodemon         # 서버 자동 재시작 유틸리티
+npm i @types/node        # Node.js 모듈에 대한 타입 정의 추가 (개발 의존성)
+npm i -g typescript      # TypeScript 컴파일러 전역 설치
+npm i -g nodemon         # 서버 자동 재시작 유틸리티 전역 설치 (파일 변경 감지)
 ```
-🎨 스타일링 관련
+2. 🎨 스타일링 관련
 ```bash
-npm i tailwindcss @tailwindcss/vite  # Tailwind CSS 및 Vite 플러그인
+npm i tailwindcss @tailwindcss/vite  # Tailwind CSS 핵심 라이브러리 및 Vite 환경 플러그인 설치
 ```
-🚀 배포 도구
+3. 🚀 배포 도구
 ```bash
-npm i -g vercel           # Vercel CLI 전역 설치
+npm i -g vercel           # Vercel 배포를 위한 커맨드 라인 인터페이스(CLI) 전역 설치
 ```
-✅ 
-- TypeScript + Node 환경: @types/node, typescript 
-- 스타일링: tailwindcss, @tailwindcss/vite
-- 자동 실행: nodemon
-- 배포용 CLI: vercel
 
 ---
 
