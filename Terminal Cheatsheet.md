@@ -123,6 +123,18 @@ https://tailwindcss.com/docs/installation/using-vite
 
 ---
 
+## 8. 라이브러리 모음
+
+```bash
+npm i @types/node
+npm i -g typescript
+npm i tailwindcss @tailwindcss/vite
+npm i -g vercel
+npm i -g nodemon
+```
+
+---
+
 ## 💡 빠른 실행 요약
 
 ### ⚛️ React (Vite)
