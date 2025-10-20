@@ -93,12 +93,11 @@ npm i tailwindcss @tailwindcss/vite  # Tailwind CSS 및 Vite 플러그인
 ```bash
 npm i -g vercel           # Vercel CLI 전역 설치
 ```
-
-✅ 요약 가이드
-TypeScript + Node 환경: @types/node, typescript
-스타일링: tailwindcss, @tailwindcss/vite
-자동 실행: nodemon
-배포용 CLI: vercel
+✅ 
+- TypeScript + Node 환경: @types/node, typescript 
+- 스타일링: tailwindcss, @tailwindcss/vite
+- 자동 실행: nodemon
+- 배포용 CLI: vercel
 
 ---
 
