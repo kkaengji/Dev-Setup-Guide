@@ -123,14 +123,20 @@ https://tailwindcss.com/docs/installation/using-vite
 
 ---
 
-## 8. 라이브러리 모음
-
+## ⚙️ 8. 필수 라이브러리 & 유틸리티 설치
+📦 기본 개발 도구
 ```bash
-npm i @types/node
-npm i -g typescript
-npm i tailwindcss @tailwindcss/vite
-npm i -g vercel
-npm i -g nodemon
+npm i @types/node        # Node.js 타입 정의 추가
+npm i -g typescript      # TypeScript 전역 설치
+npm i -g nodemon         # 서버 자동 재시작 유틸리티
+```
+🎨 스타일링 관련
+```bash
+npm i tailwindcss @tailwindcss/vite  # Tailwind CSS 및 Vite 플러그인
+```
+🚀 배포 도구
+```bash
+npm i -g vercel           # Vercel CLI 전역 설치
 ```
 
 ---
