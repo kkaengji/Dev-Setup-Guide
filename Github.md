@@ -1,7 +1,7 @@
 # 🧭 GitHub
-- git 설치 + bash
+- git + bash
 https://git-scm.com/
-- SourceTree 설치
+- SourceTree 
 https://www.sourcetreeapp.com/
   
 ## 1. Git 최초 설정
