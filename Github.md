@@ -28,7 +28,7 @@ git status        # 변경된 파일 상태 확인
 🔹 3-1. reset
 > 원하는 시점으로 돌아간 뒤, 그 이후의 내역을 완전히 삭제
 ```bash
-git log                           # 되돌아갈 커밋 해시 복사
+git log  # 되돌아갈 커밋 해시 복사
 git reset --hard 돌아갈 커밋 해시
 ```
 > 🔁 reset 하기 전 시점으로 복원 ( .git 복원 후 사용 )
@@ -38,38 +38,25 @@ git reset --hard
 💡 SourceTree:
 해당 커밋 우클릭 → 이 커밋까지 현재 브랜치를 초기화(Hard)
 
-### 3-2. revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
+🔹 3-2. revert
+> 되돌리고 싶은 커밋을 거꾸로 실행하여 새로운 커밋으로 되돌리기
+> (기존 히스토리를 보존)
 ```bash
-git log # 되돌릴 커밋 해시 복사
-git revert 되돌릴 커밋 해시 #:wq로 커밋 메시지 저장
-
-# 오류 시 해결 후
-git revert --continue
-
-# 커밋해버리지 않고 revert
-git revert --no-commit 되돌릴  커밋 해시
+git log                                  # 되돌릴 커밋 해시 복사
+git revert (되돌릴 커밋 해시)           # :wq 로 커밋 메시지 저장
 ```
-> SourceTree <br>
-: 해당 커밋에 마우스 우클릭 - 커밋 되돌리기
+> 오류 시 해결 후 계속 진행
+```bash
+git revert --continue
+```
+> 커밋하지 않고 되돌리기 (검토용)
+```bash
+git revert --no-commit (용
 
-## 4. Branch 
-| 명령어 | 설명 |
-|--------|------|
-| `git branch add-coach` | add-coach라는 브랜치 생성 | 
-| `git branch` | 브랜치 목록 확인 | 
-| `git switch add-coach` | 해당 브랜치로 이동 | 
-| `git switch -c new-teams` | 브랜치 생성과 동시에 이동 | 
-| `git branch -d 삭제할 브랜치명` | 브랜치 삭제 | 
-| `git branch -D 강제삭제할 브랜치명` | | 
-| `git branch -m (기존 브랜치명) (새 브랜치명)` | 브랜치 이름 변경 | 
-| `git log --all --decorate --oneline --graph` | 브랜치 내역 보기 | 
-
-### 4-2. Branch 합치기
-#### merge : 두 브랜치를 한 커밋에 이어붙입니다.
-- 브랜치 사용내역을 남길 필요가 있을 때 적합한 방식입니다.
-#### rebase : 브랜치를 다른 브랜치에 이어붙입니다.
-- 한 줄로 깔끔히 정리된 내역을 유지하기 원할 때 적합합니다.
-- 이미 팀원과 공유된 커밋들에 대해서는 사용하지 않는 것이 좋습니다.
+🪄 rebase
+> 한 브랜치를 다른 브랜치에 이어붙이는 방식
+> 커밋 내역을 한 줄로 깔끔하게 정리하고 싶을 때 사용
+> ⚠️ 단, 이미 팀원과 공유된 커밋에는 rebase 사용을 피하세요. (히스토리 충돌 위험)
 
 
 ### 🪄 터미널 명령어 모음
