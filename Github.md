@@ -27,7 +27,7 @@ git status        # 변경된 파일 상태 확인
 ---
 
 ## 3️⃣ Git에서 과거로 돌아가기
-### 🔹 3-1. reset
+### 🔹 1. reset
 > 원하는 시점으로 돌아간 뒤, 그 이후의 내역을 완전히 삭제
 ```bash
 git log  # 되돌아갈 커밋 해시 복사
@@ -40,7 +40,7 @@ git reset --hard
 💡 SourceTree: <br>
 해당 커밋 우클릭 → 이 커밋까지 현재 브랜치를 초기화(Hard)
 
-### 🔹 3-2. revert
+### 🔹 2. revert
 > 되돌리고 싶은 커밋을 거꾸로 실행하여 새로운 커밋으로 되돌리기
 > (기존 히스토리를 보존)
 ```bash
@@ -85,8 +85,14 @@ git merge (B 브랜치)           # :wq 로 커밋 메시지 저장
 git branch -d (B 브랜치)       # 병합된 브랜치는 삭제
 
 # 당장 충돌 해결이 어려울 경우
-git merge --abort 
+git merge --abort
+
+# 충돌 부분 수정한 뒤
+git add .
+git commit 
 ```
+💡 SourceTree: <br>
+A브랜치로 이동 후 B 브랜치를 우클릭하고 현재 브런치로 to-merge 병합
 
 #### 🔹 2. rebase (B → A)
 > 한 브랜치를 **다른 브랜치에 이어붙이는 방식** (커밋 내용 한줄로 정리) <br>
@@ -103,9 +109,12 @@ git branch -d (B 브랜치)
 # 당장 충돌 해결이 어려울 경우
 git rebase --abort
 
-# 해결 가능 시
+# 충돌 부분 수정한 뒤
+git add .
 git rebase --continue
 ```
+💡 SourceTree: <br>
+리베이스 할 B브랜치로 이동 후 A 브랜치를 우클릭하고 현재 변경사항을 A에 재배치 
 
 ---
 
