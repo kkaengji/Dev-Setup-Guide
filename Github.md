@@ -45,10 +45,22 @@ git revert --no-commit 되돌릴  커밋 해시
 > SourceTree <br>
 : 해당 커밋에 마우스 우클릭 - 커밋 되돌리기
 
+## 4. Branch 
+```bash
+git branch add-coach  # add-coach라는 브랜치 생성
+git branch # 브랜치 목록 확인
+git switch add-coach # 해당 브랜치로 이동
+git switch -c new-teams # 브랜치 생성과 동시에 이동
+git branch -d 삭제할 브랜치명 # 브랜치 삭제
+git branch -D 강제삭제할 브랜치명
+git branch -m (기존 브랜치명) (새 브랜치명) # 브랜치 이름 변경
+git log --all --decorate --oneline --graph # 브랜치 내역 보
+
+```
 
 
 
-## 터미널 명령어 모음
+### 🪄 터미널 명령어 모음
 | 명령어 | 설명 |
 |--------|------|
 | `git init` | Git 저장소 초기화 |
@@ -68,7 +80,7 @@ git revert --no-commit 되돌릴  커밋 해시
 | `git push` | 이후 업로드 |
 | `git mv 원래파일명.md 바꿀파일명.md` | 파일명 변경 |
 
-### Git 업로드
+### 상황별 예시
 ```bash
 // Github에 새 저장소를 만들어 연결할 때
 git init
