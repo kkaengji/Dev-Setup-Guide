@@ -21,17 +21,17 @@ git status
 ## 3. .gitignore 형식
 🔗 https://git-scm.com/docs/gitignore 참조
 
-## 4. commit 
-git commit
-
-
-
+## 4. 터미널 명령어
 | 명령어 | 설명 |
 |--------|------|
 | `git init` | Git 저장소 초기화 |
 | `git status` | 변경사항 확인 |
 | `git add .` | 모든 변경 파일 추가 |
 | `git commit -m "메시지"` | 변경 내용 커밋 |
+| `git commit -am "메시지"` | add + commit (새로 추가된 파일이 없을 때 한정) |
+| `git log` | 종료 :q |
+| `git diff` | 위 k, 아래 j, 종료 :q |
+
 | `git remote add origin [주소]` | 원격 저장소 연결 |
 | `git push -u origin main` | 첫 업로드 |
 | `git clone 주소` | 로컬로 저장소 클론 |
