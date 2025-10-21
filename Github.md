@@ -1,35 +1,42 @@
-# 🧭 GitHub 
+# 🧭 Git 기본 설정 및 사용 가이드
 * [git + bash](https://git-scm.com/)
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [.gitignore 형식](https://git-scm.com/docs/gitignore/)
-  
-## 1. Git 최초 설정
-Git 전역으로 사용자 이름과 이메일 주소를 설정 (GitHub 계정과는 별개)
+
+---
+
+## 1️⃣ Git 최초 설정
+> Git 전역으로 사용자 이름과 이메일 주소를 설정합니다.
+> (⚠️ GitHub 계정 정보와는 별개입니다.)
 ```bash
 git config --global user.name "본인 이름"
 git config --global user.email "본인 이메일"
 
-# 기본 브랜치명 변경
+# 기본 브랜치명을 main으로 변경
 git config --global init.defaultBranch main
 ```
 
-## 2. 프로젝트 생성 & Git 관리 시작
+---
+
+## 2️⃣ 프로젝트 생성 & Git 관리 시작
 ```bash
-git init
-git status
+git init          # 현재 폴더를 Git 저장소로 초기화
+git status        # 변경된 파일 상태 확인
 ```
 
-## 3. Git에서 과거로 돌아가기
-### 3-1. reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 삭제
+## 3️⃣ Git에서 과거로 돌아가기
+🔹 3-1. reset
+> 원하는 시점으로 돌아간 뒤, 그 이후의 내역을 완전히 삭제
 ```bash
-git log # 되돌아갈 시점의 커밋 해시 복사
-git reset --hard (돌아갈 커밋 해시)
-
-# reset 하기 전 시점으로 복원 (.git 복원 후 사용)
+git log                           # 되돌아갈 커밋 해시 복사
+git reset --hard 돌아갈 커밋 해시
+```
+> 🔁 reset 하기 전 시점으로 복원 ( .git 복원 후 사용 )
+```bash
 git reset --hard 
 ```
-> SourceTree <br>
-: 해당 커밋에 마우스 우클릭 - 이 커밋까지 현재 브런치를 초기화 Hard
+💡 SourceTree:
+해당 커밋 우클릭 → 이 커밋까지 현재 브랜치를 초기화(Hard)
 
 ### 3-2. revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
 ```bash
@@ -78,7 +85,6 @@ git revert --no-commit 되돌릴  커밋 해시
 | `git reset --hard 돌아갈 커밋 해시` | 원하는 시점으로 돌아간 뒤 이후 내역 삭제 |
 | `git rm 파일명` | 삭제 |
 | `git revert --continue` | |
-
 | `git remote add origin [주소]` | 원격 저장소 연결 |
 | `git push -u origin main` | 첫 업로드 |
 | `git clone 주소` | 로컬로 저장소 클론 |
