@@ -8,7 +8,7 @@
 - 삭제: deleteOne(filter), deleteMany(filter)
 
 ---
-## 1-1. Mongosh 예시
+## 1-2. Mongosh 예시
 ```bash
 $ mongosh
 
