@@ -1,4 +1,4 @@
-# 🧭 GitHub
+# 🧭 GitHub 
 - git + bash 🔗https://git-scm.com/
 - SourceTree 🔗https://www.sourcetreeapp.com/
   
@@ -20,39 +20,16 @@ git status
 
 ## 3. .gitignore 형식
 🔗 https://git-scm.com/docs/gitignore 참조
-```bash
-# 이렇게 #를 사용해서 주석
 
-# 모든 file.c
-file.c
+## 4. commit 
+git commit
 
-# 최상위 폴더의 file.c
-/file.c
-
-# 모든 .c 확장자 파일
-*.c
-
-# .c 확장자지만 무시하지 않을 파일
-!not_ignore_this.c
-
-# logs란 이름의 파일 또는 폴더와 그 내용들
-logs
-
-# logs란 이름의 폴더와 그 내용들
-logs/
-
-# logs 폴더 바로 안의 debug.log와 .c 파일들
-logs/debug.log
-logs/*.c
-
-# logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log
-logs/**/debug.log
-```
 
 
 | 명령어 | 설명 |
 |--------|------|
 | `git init` | Git 저장소 초기화 |
+| `git status` | 변경사항 확인 |
 | `git add .` | 모든 변경 파일 추가 |
 | `git commit -m "메시지"` | 변경 내용 커밋 |
 | `git remote add origin [주소]` | 원격 저장소 연결 |
@@ -91,3 +68,4 @@ git pull origin main
 
 📘 **작성자:** kkaengji
 📅 **최종 업데이트:** 2025-10-14  
+**출처:** [https://www.yalco.kr/@git-github/2-1/](https://www.yalco.kr/lectures/git-github/)
