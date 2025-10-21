@@ -1,11 +1,12 @@
 # 1. Mongosh
 #### MongoDB CRUD 핵심 명령어 요약
-- 삽입(insert): insertOne(), insertMany()
-- 조회(Find): find(), find(filter), find(filter, projection)
-- 비교 연산자: $gt_초과, $gte_이상, $lt_미만, $lte_이하, $ne_같지않음, $in_포함o, $nin_포함x
-- 정렬(Sort)&제한(Limit): .sort({ 필드명: 1 }), .sort({ 필드명: -1 }), .limit(숫자), .sort().limit()
-- 수정(Update): updateOne(filter, update), updateMany(filter, update) / ⚙️ 업데이트 연산자: $set_필드 값 추가 또는 변경, $unset_필드 삭제
-- 삭제(Delete): deleteOne(filter), deleteMany(filter)
+- 삽입: insertOne(), insertMany()
+- 조회: find(), find(filter), find(filter, projection)
++ $gt_초과, $gte_이상, $lt_미만, $lte_이하, $ne_같지않음, $in_포함o, $nin_포함x
+- 정렬&제한: .sort({ 필드명: 1 }), .sort({ 필드명: -1 }), .limit(숫자), .sort().limit()
+- 수정: updateOne(filter, update), updateMany(filter, update)
++ $set_필드 값 추가 또는 변경, $unset_필드 삭제
+- 삭제: deleteOne(filter), deleteMany(filter)
 
 ---
 ## 1-1. Mongosh 예시
