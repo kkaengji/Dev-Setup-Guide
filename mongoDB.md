@@ -1,4 +1,4 @@
-# 🍃 MongoDB
+# 1. 🍃 MongoDB
 ```bash
 $ mongosh
 > use testdb
@@ -99,7 +99,7 @@ db.users.deleteMany({ age: { $lt: 31 } })
 
 ---
 
-# Mongoose + Express (Node.js 서버에서 MongoDB 연결)
+# 2. Mongoose + Express (Node.js 서버에서 MongoDB 연결)
 ```
 $ npm install mongoose dotenv   # MongoDB 연결 및 환경 변수 관리용 패키지 설치
 $ npm i express                 # 서버 구축용 프레임워크 Express 설치
