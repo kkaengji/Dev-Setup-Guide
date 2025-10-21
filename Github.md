@@ -57,10 +57,6 @@ git revert --no-commit 되돌릴  커밋 해시
 | `git branch -m (기존 브랜치명) (새 브랜치명)` | 브랜치 이름 변경 | 
 | `git log --all --decorate --oneline --graph` | 브랜치 내역 보기 | 
 
-```
-
-
-
 ### 🪄 터미널 명령어 모음
 | 명령어 | 설명 |
 |--------|------|
