@@ -3,10 +3,10 @@
 ## 🟢 **삽입 (Insert)**  
 ```
 insertOne()   → 단일 데이터 삽입
-예: db.users.insertOne({ name: "Nam", age: 30 })
+ex) db.users.insertOne({ name: "Nam", age: 30 })
 
 insertMany()  → 여러 데이터 한 번에 삽입
-예: db.users.insertMany([
+ex) db.users.insertMany([
   { name: "Mina", age: 25 },
   { name: "Bak", age: 27 }
 ])
@@ -29,7 +29,7 @@ find(filter, projection)          → 조건 + 특정 필드만 표시
   $in   → 포함 (in)
   $nin  → 포함되지 않음 (not in)
 
-예:
+ex)
 db.users.find({ age: { $gte: 25 } })
 db.users.find({ age: { $gt: 25 } }, { name: 1, _id: 0 })
 ```
@@ -41,7 +41,7 @@ db.users.find({ age: { $gt: 25 } }, { name: 1, _id: 0 })
 .sort({ 필드명: 1 })   → 오름차순 정렬 (작은 → 큰)
 .sort({ 필드명: -1 })  → 내림차순 정렬 (큰 → 작은)
 
-예:
+ex)
 db.users.find().sort({ age: 1 })
 db.users.find().sort({ age: -1 })
 ```
@@ -53,7 +53,7 @@ db.users.find().sort({ age: -1 })
 .limit(숫자)               → 조회 결과 개수 제한
 .sort().limit()            → 정렬 + 제한 동시 적용
 
-예:
+ex)
 db.users.find().limit(2)
 db.users.find().sort({ age: 1 }).limit(1)
 ```
@@ -69,7 +69,7 @@ updateMany(filter, update)  → 조건에 맞는 여러 문서 수정
   $set    → 필드 값 추가 또는 변경
   $unset  → 필드 삭제
 
-예:
+ex)
 db.users.updateOne({ name: "Nam" }, { $set: { age: 29 } })
 db.users.updateMany({ age: { $lte: 30 } }, { $set: { status: "veteran" } })
 db.users.updateOne({ name: "Mina" }, { $unset: { gender: "" } })
@@ -82,7 +82,7 @@ db.users.updateOne({ name: "Mina" }, { $unset: { gender: "" } })
 deleteOne(filter)   → 조건에 맞는 첫 번째 문서 삭제
 deleteMany(filter)  → 조건에 맞는 여러 문서 삭제
 
-예:
+ex)
 db.users.deleteOne({ name: "Nam" })
 db.users.deleteMany({ age: { $lt: 31 } })
 ```
