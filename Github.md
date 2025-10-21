@@ -21,7 +21,22 @@ git status
 ## 3. .gitignore 형식
 🔗 https://git-scm.com/docs/gitignore 참조
 
-## 4. 터미널 명령어
+## 4. Git에서 과거로 돌아가는 두 방식
+- reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 지웁니다.
+```bash
+git log # 되돌아갈 시점: Add team Cheetas의 커밋 해시 복사
+git reset --hard (돌아갈 커밋 해시)
+```
+- revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
+```bash
+```
+
+
+
+
+
+
+## 터미널 명령어 모음
 | 명령어 | 설명 |
 |--------|------|
 | `git init` | Git 저장소 초기화 |
@@ -29,8 +44,8 @@ git status
 | `git add .` | 모든 변경 파일 추가 |
 | `git commit -m "메시지"` | 변경 내용 커밋 |
 | `git commit -am "메시지"` | add + commit (새로 추가된 파일이 없을 때 한정) |
-| `git log` | 종료 :q |
-| `git diff` | 위 k, 아래 j, 종료 :q |
+| `git log` | 커밋 히스토리 (종료 :q) |
+| `git diff` | 두 지점 사이의 변경 사항을 비교, 차이점(위 k, 아래 j, 종료 :q) |
 
 | `git remote add origin [주소]` | 원격 저장소 연결 |
 | `git push -u origin main` | 첫 업로드 |
