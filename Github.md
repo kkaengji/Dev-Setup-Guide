@@ -28,10 +28,19 @@ git reset --hard (돌아갈 커밋 해시)
 # reset 하기 전 시점으로 복원 (.git 복원 후 사용)
 git reset --hard 
 ```
+
 - revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
 ```bash
 git log # 되돌릴 커밋 해시 복사
-git revert 되돌릴 커밋 해시 #:wq로 커밋 메시지 저
+git revert 되돌릴 커밋 해시 #:wq로 커밋 메시지 저장
+
+# 오류 시 해결 후
+git revert --continue
+
+# 커밋해버리지 않고 revert
+git revert --no-commit 되돌릴  커밋 해시
+
+
 ```
 
 
@@ -50,6 +59,8 @@ git revert 되돌릴 커밋 해시 #:wq로 커밋 메시지 저
 | `git log` | 커밋 히스토리 (종료 :q) |
 | `git diff` | 두 지점 사이의 변경 사항을 비교, 차이점(위 k, 아래 j, 종료 :q) |
 | `git reset --hard 돌아갈 커밋 해시` | 원하는 시점으로 돌아간 뒤 이후 내역 삭제 |
+| `git rm 파일명` | 삭제 |
+| `git revert --continue` | |
 
 | `git remote add origin [주소]` | 원격 저장소 연결 |
 | `git push -u origin main` | 첫 업로드 |
