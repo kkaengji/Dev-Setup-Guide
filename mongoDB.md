@@ -1,4 +1,4 @@
-# 1. Mongosh 기본 흐름 & 예제
+# 1. Mongosh
 ```bash
 $ mongosh
 
