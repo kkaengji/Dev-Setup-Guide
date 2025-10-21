@@ -5,8 +5,7 @@ https://git-scm.com/
 https://www.sourcetreeapp.com/
   
 ## 1. Git 최초 설정
-Git 전역으로 사용자 이름과 이메일 주소를 설정
-- GitHub 계정과는 별개
+Git 전역으로 사용자 이름과 이메일 주소를 설정 (GitHub 계정과는 별개)
 ```bash
 git config --global user.name "(본인 이름)"
 git config --global user.email "(본인 이메일)"
