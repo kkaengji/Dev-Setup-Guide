@@ -18,7 +18,7 @@ $ mongosh
 > db.users.insertOne({name: "Nam", age: 30})
 > db.users.insertMany([
 > {name: "Mina", age: 25, email: "mina@example.com"},
-> {name: "Bak", age: 27, email: "Bak@example.com"}])
+> {name: "Pak", age: 27, email: "Pak@example.com"}])
 
 # 전체 조회
 > db.users.find()
@@ -58,7 +58,7 @@ $ mongosh
 
 # 예제 시나리오: 사용자 추가 및 조건 조회
 > db.users.insertOne({name: "Nam", age: 30})
-> db.users.insertMany([{name: "bak", age: 27}, {name: "lee", age: 33}])
+> db.users.insertMany([{name: "Pak", age: 27}, {name: "lee", age: 33}])
 > db.users.find({age: {$gte: 26}}, {name: 1, age: 1})
 > exit
 ```
