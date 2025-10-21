@@ -21,7 +21,8 @@ git status
 
 ## 3. Git에서 과거로 돌아가는 두 방식
 - reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 삭제
-> SourceTree: 해당 커밋에 마우스 우클릭 - ... 이 커밋으로 초기화
+> SourceTree
+> : 해당 커밋에 마우스 우클릭 - 이 커밋까지 현재 브런치를 초기화 Hard
 ```bash
 git log # 되돌아갈 시점의 커밋 해시 복사
 git reset --hard (돌아갈 커밋 해시)
