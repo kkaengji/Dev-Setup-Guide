@@ -71,5 +71,18 @@ scoop install python
 
 ---
 
+### 💻 gemini 
+#### 확장프로그램
+- gemini code assist
+- google cloude code
+
+**예시:**
+```bash
+npm install -g @google/gemini-cli
+gemini
+```
+
+---
+
 📘 **작성자:** kkaengji
-📅 **최종 업데이트:** 2025-10-14  
+📅 **최종 업데이트:** 2025-10-21
