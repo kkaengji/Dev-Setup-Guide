@@ -1,7 +1,7 @@
 # 🧭 GitHub 
-- git + bash 🔗https://git-scm.com/
-- SourceTree 🔗https://www.sourcetreeapp.com/
-- .gitignore 형식 🔗 https://git-scm.com/docs/gitignore
+* 🔗[git + bash](https://git-scm.com/)
+* 🔗[SourceTree](https://www.sourcetreeapp.com/)
+* 🔗[.gitignore 형식](https://git-scm.com/docs/gitignore/)
   
 ## 1. Git 최초 설정
 Git 전역으로 사용자 이름과 이메일 주소를 설정 (GitHub 계정과는 별개)
@@ -21,8 +21,8 @@ git status
 
 ## 3. Git에서 과거로 돌아가는 두 방식
 - reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 삭제
-> SourceTree
-> : 해당 커밋에 마우스 우클릭 - 이 커밋까지 현재 브런치를 초기화 Hard
+> SourceTree <br>
+: 해당 커밋에 마우스 우클릭 - 이 커밋까지 현재 브런치를 초기화 Hard
 ```bash
 git log # 되돌아갈 시점의 커밋 해시 복사
 git reset --hard (돌아갈 커밋 해시)
@@ -33,7 +33,8 @@ git reset --hard
 
 
 - revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
-> SourceTree: 해당 커밋에 마우스 우클릭 - 커밋 되돌리기
+> SourceTree <br>
+: 해당 커밋에 마우스 우클릭 - 커밋 되돌리기
 ```bash
 git log # 되돌릴 커밋 해시 복사
 git revert 되돌릴 커밋 해시 #:wq로 커밋 메시지 저장
