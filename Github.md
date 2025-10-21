@@ -20,8 +20,6 @@ git status
 ```
 
 ## 3. Git에서 과거로 돌아가는 두 방식
-> SourceTree: 해당 커밋에 마우스 우클릭 - ... 이 커밋으로 초기화
-
 - reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 지웁니다.
 ```bash
 git log # 되돌아갈 시점의 커밋 해시 복사
@@ -30,8 +28,7 @@ git reset --hard (돌아갈 커밋 해시)
 # reset 하기 전 시점으로 복원 (.git 복원 후 사용)
 git reset --hard 
 ```
-
-> SourceTree: 해당 커밋에 마우스 우클릭 - 커밋 되돌리기
+> SourceTree: 해당 커밋에 마우스 우클릭 - ... 이 커밋으로 초기화
 
 - revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
 ```bash
@@ -43,10 +40,8 @@ git revert --continue
 
 # 커밋해버리지 않고 revert
 git revert --no-commit 되돌릴  커밋 해시
-
-
 ```
-
+> SourceTree: 해당 커밋에 마우스 우클릭 - 커밋 되돌리기
 
 
 
