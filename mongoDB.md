@@ -2,7 +2,8 @@
 #### MongoDB CRUD 핵심 명령어 요약
 - 삽입: insertOne(), insertMany()
 - 조회: find(), find(filter), find(filter, projection) + $gt_초과, $gte_이상, $lt_미만, $lte_이하, $ne_같지않음, $in_포함o, $nin_포함x
-- 정렬&제한: .sort({ 필드명: 1 }), .sort({ 필드명: -1 }), .limit(숫자), .sort().limit()
+- 정렬: .sort({ 필드명: 1 }), .sort({ 필드명: -1 })
+- 제한: .limit(숫자), .sort().limit()
 - 수정: updateOne(filter, update), updateMany(filter, update) + $set_필드 값 추가 또는 변경, $unset_필드 삭제
 - 삭제: deleteOne(filter), deleteMany(filter)
 
