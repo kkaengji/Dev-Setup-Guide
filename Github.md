@@ -1,8 +1,6 @@
 # 🧭 GitHub
-- git + bash
-https://git-scm.com/
-- SourceTree 
-https://www.sourcetreeapp.com/
+- git + bash 🔗https://git-scm.com/
+- SourceTree 🔗https://www.sourcetreeapp.com/
   
 ## 1. Git 최초 설정
 Git 전역으로 사용자 이름과 이메일 주소를 설정 (GitHub 계정과는 별개)
