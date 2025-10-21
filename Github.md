@@ -1,8 +1,8 @@
 # 🧭 GitHub
 - git 설치 + bash
-  https://git-scm.com/
+https://git-scm.com/
 - SourceTree 설치
-  https://www.sourcetreeapp.com/
+https://www.sourcetreeapp.com/
   
 ## 1. Git 최초 설정
 Git 전역으로 사용자 이름과 이메일 주소를 설정
