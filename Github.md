@@ -46,6 +46,7 @@ git reset --hard (돌아갈 커밋 해시)
 | `git commit -am "메시지"` | add + commit (새로 추가된 파일이 없을 때 한정) |
 | `git log` | 커밋 히스토리 (종료 :q) |
 | `git diff` | 두 지점 사이의 변경 사항을 비교, 차이점(위 k, 아래 j, 종료 :q) |
+| `git reset --hard 돌아갈 커밋 해시` | 원하는 시점으로 돌아간 뒤 이후 내역 삭제 |
 
 | `git remote add origin [주소]` | 원격 저장소 연결 |
 | `git push -u origin main` | 첫 업로드 |
