@@ -1,4 +1,18 @@
-# 🧭 1. Git 버전 관리 (로컬 + 원격)
+# 🧭 1. Git 최초 설정
+Git 전역으로 사용자 이름과 이메일 주소를 설정
+- GitHub 계정과는 별개
+```bash
+git config --global user.name "(본인 이름)"
+git config --global user.email "(본인 이메일)"
+
+# 아래의 명령어들로 확인 
+git config --global user.name
+git config --global user.email
+
+# 기본 브랜치명 변경
+git config --global init.defaultBranch main
+```
+
 
 | 명령어 | 설명 |
 |--------|------|
