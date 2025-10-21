@@ -6,8 +6,8 @@
 ---
 
 ## 1️⃣ Git 최초 설정
-> Git 전역으로 사용자 이름과 이메일 주소를 설정합니다.
-> (⚠️ GitHub 계정 정보와는 별개입니다.)
+> Git 전역으로 사용자 이름과 이메일 주소를 설정합니다. <br>
+> (⚠️ GitHub 계정 정보와는 별개입니다.) 
 ```bash
 git config --global user.name "본인 이름"
 git config --global user.email "본인 이메일"
@@ -37,7 +37,7 @@ git reset --hard 돌아갈 커밋 해시
 ```bash
 git reset --hard 
 ```
-💡 SourceTree:
+💡 SourceTree: <br>
 해당 커밋 우클릭 → 이 커밋까지 현재 브랜치를 초기화(Hard)
 
 ### 🔹 3-2. revert
@@ -55,7 +55,7 @@ git revert --continue
 ```bash
 git revert --no-commit (되돌릴 커밋 해시)
 ```
-💡 SourceTree:
+💡 SourceTree: <br>
 해당 커밋 우클릭 → 커밋 되돌리기
 
 ---
@@ -76,7 +76,7 @@ git revert --no-commit (되돌릴 커밋 해시)
 ---
 
 ### 🔹 4-1. merge
-> 두 브랜치를 **하나의 커밋에 이어붙이는 방식** (브랜치 사용 내역o)
+> 두 브랜치를 **하나의 커밋에 이어붙이는 방식** (브랜치 사용 내역o) <br>
 > B 브랜치를 A 브랜치로 merge
 ```bash
 git switch (A 브랜치)
@@ -85,8 +85,8 @@ git branch -d (B 브랜치)       # 병합된 브랜치는 삭제
 ```
 
 ### 🔹 4-2. rebase (B → A)
-> 한 브랜치를 **다른 브랜치에 이어붙이는 방식** (커밋 내용 한줄로 정리)
-> ⚠️ 단, 이미 **팀원과 공유된 커밋**에는 `rebase` 사용을 피하기 (히스토리 충돌 위험이 있음)
+> 한 브랜치를 **다른 브랜치에 이어붙이는 방식** (커밋 내용 한줄로 정리) <br>
+> ⚠️ 단, 이미 **팀원과 공유된 커밋**에는 `rebase` 사용을 피하기 (히스토리 충돌 위험이 있음) <br>
 > B 브랜치를 A 브랜치로 rebase
 ```bash
 git switch (B 브랜치)
