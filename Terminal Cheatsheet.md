@@ -147,7 +147,7 @@ https://tailwindcss.com/docs/installation/using-vite
 
 ---
 
-## 🌐 7. Vercel 배포 과정
+## 🌐 8. Vercel 배포 과정
 
 | 명령어 | 설명 |
 |--------|------|
