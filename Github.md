@@ -18,7 +18,7 @@ git init
 git status
 ```
 
-## 3. .gitignore 형
+### .gitignore 형식
 🔗 https://git-scm.com/docs/gitignore 참조
 
 
