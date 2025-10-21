@@ -77,8 +77,9 @@ git revert --no-commit (되돌릴 커밋 해시)
 
 ### 🔹 4-1. merge
 > 두 브랜치를 **하나의 커밋에 이어붙이는 방식** (브랜치 사용 내역o) <br>
-> B 브랜치를 A 브랜치로 merge
+
 ```bash
+# B 브랜치를 A 브랜치로 merge
 git switch (A 브랜치)
 git merge (B 브랜치)           # :wq 로 커밋 메시지 저장
 git branch -d (B 브랜치)       # 병합된 브랜치는 삭제
@@ -87,8 +88,9 @@ git branch -d (B 브랜치)       # 병합된 브랜치는 삭제
 ### 🔹 4-2. rebase (B → A)
 > 한 브랜치를 **다른 브랜치에 이어붙이는 방식** (커밋 내용 한줄로 정리) <br>
 > ⚠️ 단, 이미 **팀원과 공유된 커밋**에는 `rebase` 사용을 피하기 (히스토리 충돌 위험이 있음) <br>
-> B 브랜치를 A 브랜치로 rebase
+
 ```bash
+# B 브랜치를 A 브랜치로 rebase
 git switch (B 브랜치)
 git rebase (A 브랜치)
 git switch (A 브랜치)
