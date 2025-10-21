@@ -1,4 +1,4 @@
-# 1. 🍃 MongoDB
+# 1. MongoDB
 ```bash
 $ mongosh
 > use testdb
@@ -8,7 +8,7 @@ $ mongosh
 
 ---
 
-## MongoDB CRUD 핵심 정리
+## 🍃 MongoDB CRUD 핵심 정리
 ### 🟢 **삽입 (Insert)**  
 ```
 insertOne()   → 단일 데이터 삽입
