@@ -1,6 +1,6 @@
 # 🧭 GitHub 
 - git + bash 🔗https://git-scm.com/
-- SourceTree 🔗https://www.sourcetreeapp.com/\
+- SourceTree 🔗https://www.sourcetreeapp.com/
 - .gitignore 형식 🔗 https://git-scm.com/docs/gitignore
   
 ## 1. Git 최초 설정
