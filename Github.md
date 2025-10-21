@@ -18,7 +18,7 @@ git init
 git status
 ```
 
-### .gitignore 형식
+## 3. .gitignore 형식
 🔗 https://git-scm.com/docs/gitignore 참조
 ```bash
 # 이렇게 #를 사용해서 주석
