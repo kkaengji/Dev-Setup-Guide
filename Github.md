@@ -171,6 +171,34 @@ git push --force
 
 ---
 
+### 🧭 Git 업로드
+```bash
+// Github에 새 저장소를 만들어 연결할 때
+git init
+git add .
+git commit -m ""
+git remote add origin [URL]
+git push -u origin main
+
+// 기존 저장소 clone
+git clone [URL]
+git add .
+git commit -m ""
+git push
+
+// 이미 작업 중
+git add .
+git commit -m ""
+git push
+
+// 최신 변경 내용 병합
+git add .
+git status
+git pull origin main
+
+```
+---
+
 📘 **작성자:** kkaengji
 📅 **최종 업데이트:** 2025-10-14  <br />
 * [git + bash](https://git-scm.com/)
