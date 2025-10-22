@@ -1,11 +1,8 @@
 # 🧭 Git 기본 설정 및 사용 가이드
-* [git + bash](https://git-scm.com/)
-* [SourceTree](https://www.sourcetreeapp.com/)
-* [.gitignore 형식](https://git-scm.com/docs/gitignore/)
 
 ---
 
-## 1️⃣ Git 최초 설정
+## 1️⃣ Git 최초 설정 
 > Git 전역으로 사용자 이름과 이메일 주소를 설정합니다. <br>
 > (⚠️ GitHub 계정 정보와는 별개입니다.) 
 ```bash
@@ -71,7 +68,6 @@ git revert --no-commit (되돌릴 커밋 해시)
 | `git branch -m (기존명) (새이름)` | 브랜치 이름 변경 | 
 | `git log --all --decorate --oneline --graph` | 브랜치 내역 그래프로 보기 |
 
----
 ### 4-1. Branch 합치기
 #### 🔹 1. merge
 > 두 브랜치를 **하나의 커밋에 이어붙이는 방식** (브랜치 사용 내역o) <br>
@@ -112,6 +108,20 @@ git rebase --continue
 ```
 💡 SourceTree: 리베이스 할 B브랜치로 이동 후 A 브랜치를 우클릭하고 현재 변경사항을 A에 재배치 
 
+
+### 4-2. 원격의 브랜치 사용 
+```bash
+# 브랜치 생성 + 이동 후
+git branch from-local
+git branch -a
+
+# 로컬에서 브랜치 생성 후 받아오기
+git fetch
+git switch -t origin/(가져올 브랜치명)
+
+# 원격의 브랜치 삭제
+git push (원격 이름) --delete (원격의 브랜치명)
+```
 
 ---
 
@@ -164,4 +174,7 @@ git push --force
 
 📘 **작성자:** kkaengji
 📅 **최종 업데이트:** 2025-10-14  
-**출처:** [https://www.yalco.kr/@git-github/2-1/](https://www.yalco.kr/lectures/git-github/)
+* [git + bash](https://git-scm.com/)
+* [SourceTree](https://www.sourcetreeapp.com/)
+* [.gitignore 형식](https://git-scm.com/docs/gitignore/)
+* [출처](https://www.yalco.kr/lectures/git-github/)
