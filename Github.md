@@ -114,6 +114,28 @@ git rebase --continue
 
 ---
 
+## 5️⃣ 원격 저장소 사용
+| 명령어 | 설명 |
+|--------|------|
+| `git remote add origin (원격 저장소 주소)` |  | 
+| `git branch -M main` |  | 
+| `git push -u origin main` |  | 
+| `git push` |  |
+| `git remote` |  | 
+| `git remote -v` |  | 
+| `git remote remove (origin 등 원격 이름)` |  | 
+| `git clone (원격 저장소 주소)` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+
+### push 할 것이 있을 시 pull 하는 두 가지 방법
+- git pull --no-rebase // merge 방식
+- git pull --rebase // rebase 방식
+
+---
+
 ### 🪄 터미널 명령어 모음
 | 명령어 | 설명 |
 |--------|------|
@@ -134,32 +156,6 @@ git rebase --continue
 | `git mv 원래파일명.md 바꿀파일명.md` | 파일명 변경 |
 |--------|------|
 
-### 상황별 예시
-```bash
-// Github에 새 저장소를 만들어 연결할 때
-git init
-git add .
-git commit -m ""
-git remote add origin [URL]
-git push -u origin main
-
-// 기존 저장소 clone
-git clone [URL]
-git add .
-git commit -m ""
-git push
-
-// 이미 작업 중
-git add .
-git commit -m ""
-git push
-
-// 최신 변경 내용 병합
-git add .
-git status
-git pull origin main
-
-```
 ---
 
 📘 **작성자:** kkaengji
