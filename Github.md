@@ -112,6 +112,7 @@ git rebase --continue
 ```
 💡 SourceTree: 리베이스 할 B브랜치로 이동 후 A 브랜치를 우클릭하고 현재 변경사항을 A에 재배치 
 
+
 ---
 
 ## 5️⃣ 원격 저장소 사용
@@ -125,14 +126,10 @@ git rebase --continue
 | `git remote -v` |  | 
 | `git remote remove (origin 등 원격 이름)` |  | 
 | `git clone (원격 저장소 주소)` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
 
-### push 할 것이 있을 시 pull 하는 두 가지 방법
+#### push 할 것이 있을 시 pull 하는 두 가지 방법
 - git pull --no-rebase // merge 방식
-- git pull --rebase // rebase 방식
+- git pull --rebase // rebase 방식 (협업시 사용 OK)
 
 ---
 
