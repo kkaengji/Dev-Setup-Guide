@@ -126,11 +126,18 @@ git rebase --continue
 | `git remote -v` |  | 
 | `git remote remove (origin 등 원격 이름)` |  | 
 | `git clone (원격 저장소 주소)` |  |
+| `` |  |
 
-#### push 할 것이 있을 시 pull 하는 두 가지 방법
-- git pull --no-rebase // merge 방식
-- git pull --rebase // rebase 방식 (협업시 사용 OK)
+#### push 할 것이 있을 시 pull
+```bash
+#  merge 방식
+git pull --no-rebase
+# rebase 방식 (협업시 사용 OK)
+git pull --rebase
 
+# 로컬의 내역 강제 push
+git push --force 
+```
 ---
 
 ### 🪄 터미널 명령어 모음
