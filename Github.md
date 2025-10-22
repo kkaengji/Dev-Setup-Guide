@@ -168,12 +168,11 @@ git push --force
 | `git clone 주소` | 로컬로 저장소 클론 |
 | `git push` | 이후 업로드 |
 | `git mv 원래파일명.md 바꿀파일명.md` | 파일명 변경 |
-|--------|------|
 
 ---
 
 📘 **작성자:** kkaengji
-📅 **최종 업데이트:** 2025-10-14  
+📅 **최종 업데이트:** 2025-10-14  <br />
 * [git + bash](https://git-scm.com/)
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [.gitignore 형식](https://git-scm.com/docs/gitignore/)
