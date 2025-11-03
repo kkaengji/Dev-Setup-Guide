@@ -84,5 +84,15 @@ gemini
 
 ---
 
+### Tailwind CSS 설치 및 클래스
+https://tailwindcss.com/docs/installation/using-vite
+
+### Shadcn/ui
+https://ui.shadcn.com/docs/installation
+https://lucide.dev/icons/
+
+---
+
+
 📘 **작성자:** kkaengji
 📅 **최종 업데이트:** 2025-10-21
