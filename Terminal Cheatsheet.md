@@ -73,6 +73,7 @@ const eslintConfig = [
 | `npm run dev` | 개발 모드 실행 (Vite) |
 | `touch .gitignore` | 버전 관리 제외 파일 목록 파일 (.gitignore) 생성 |
 | `ctrl + c` | 실행 중인 서버/프로세스 종료 (터미널 강제 종료) |
+| `npm uninstall lucide` | 패키지 삭제 |
 
 ### 3-2. 필수 라이브러리 & 유틸리티 설치
 1. 🛠️ 기본 개발 환경 및 유틸리티
