@@ -33,6 +33,7 @@
 ## ⚛️ 2. React 프로젝트 생성 명령어
 
 ### 🔹 Vite (최신 권장)
+https://vite.dev/guide/
 ```bash
 npm create vite@latest
 ```
