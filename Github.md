@@ -197,11 +197,11 @@ git status
 git pull origin main
 
 // Sparse Checkout
-git clone --filter=blob:none --no-checkout [저장소 주소]
-cd [저장소 폴더]
+git clone --no-checkout https://github.com/사용자명/레포명.git
+cd 레포명
 git sparse-checkout init --cone
-git sparse-checkout set docs src
-git checkout
+git sparse-checkout set 경로/파일명
+git checkout main
 
 ```
 ---
