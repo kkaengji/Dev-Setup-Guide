@@ -61,6 +61,11 @@ const eslintConfig = [
   },
 ];
 ```
+
+### Nest.js
+```bash
+$ nest new [프로젝트명]
+```
 ---
 
 ## ⚙️ 3. 프로젝트 초기 설정 및 실행 가이드
