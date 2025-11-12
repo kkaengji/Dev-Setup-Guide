@@ -196,6 +196,13 @@ git add .
 git status
 git pull origin main
 
+// Sparse Checkout
+git clone --filter=blob:none --no-checkout [저장소 주소]
+cd [저장소 폴더]
+git sparse-checkout init --cone
+git sparse-checkout set docs src
+git checkout
+
 ```
 ---
 
