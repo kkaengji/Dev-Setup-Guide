@@ -203,6 +203,13 @@ git sparse-checkout init --cone
 git sparse-checkout set 경로
 git checkout main
 
+git add --sparse Lee_Repo/
+git commit -m ""
+git push origin main
+
+// 되돌리기
+git restore .
+
 ```
 ---
 
