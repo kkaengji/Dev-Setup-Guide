@@ -200,7 +200,7 @@ git pull origin main
 git clone --filter=blob:none --no-checkout [URL]
 cd [폴더명]
 git sparse-checkout init --cone
-git sparse-checkout set src/configs
+git sparse-checkout set 경로
 git checkout main
 
 ```
