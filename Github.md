@@ -210,6 +210,10 @@ git push origin main
 // 되돌리기
 git restore .
 
+// 커밋 취소하기
+git reset --soft HEAD^
+git rm --cached 경로/문서이름
+
 ```
 ---
 
