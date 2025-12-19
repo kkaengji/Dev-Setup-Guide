@@ -149,4 +149,4 @@ https://tailwindcss.com/docs/installation/using-vite
 
 
 📘 **작성자:** kkaengji
-📅 **최종 업데이트:** 2025-10-14  
+📅 **최종 업데이트:** 2025-12-19  
