@@ -143,21 +143,10 @@ https://tailwindcss.com/docs/installation/using-vite
 | `npm run build` | 배포용 빌드 파일 생성 (`dist` 또는 `build` 폴더) |
 | `npm install -g vercel` | Vercel CLI 전역 설치 (최초1회) |
 | `vercel login` | 이메일 인증 로그인 (최초1회) |
+| `vercel` | 배포 시작 |
 
 ---
 
-## 💡 빠른 실행 요약
-
-### ⚛️ React (Vite)
-```bash
-npm create vite@latest .
-npm install
-
-npm install tailwindcss @tailwindcss/vite
-
-npm run dev
-```
----
 
 📘 **작성자:** kkaengji
 📅 **최종 업데이트:** 2025-10-14  
